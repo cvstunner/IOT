@@ -1,0 +1,23 @@
+
+    # ssid = 'Poco F1'
+    # password = 'chetan7897'
+
+
+    with open("secrets.txt") as f:
+    lines = f.readlines()
+    username = lines[0].strip()
+    password = lines[1].strip()
+    print(f"USERNAME={username}, PASSWORD={password}")
+
+SSID:   vivo 1814
+Protocol:   Wi-Fi 4 (802.11n)
+Security type:  WPA2-Personal
+Manufacturer:   Intel Corporation
+Description:    Intel(R) Wireless-AC 9461
+Driver version: 22.120.0.3
+Network band:   2.4 GHz
+Network channel:    6
+Link speed (Receive/Transmit):  72/72 (Mbps)
+IPv4 address:   192.168.43.86
+IPv4 DNS servers:   192.168.43.1 (Unencrypted)
+Physical address (MAC): 02-81-AC-60-42-1C
